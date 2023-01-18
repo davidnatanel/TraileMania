@@ -1,0 +1,9 @@
+.container {
+    background-color: rgba(41, 38, 38, 0.144);
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}

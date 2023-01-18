@@ -1,0 +1,41 @@
+.container {
+    background-color: #201c1c;
+    height: 20vh;
+}
+
+.nav {
+    background-color: #550303;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav button {
+    height: 50px;
+    width: 200px;
+    font-size: xx-large;
+    background-color: rgba(128, 128, 128, 0.658);
+    border: none;
+    color: whitesmoke;
+}
+
+.nav button:hover {
+    background-color: rgb(128, 128, 128);
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 2s;
+}
+
+.notFavorite {
+
+    background-color: #550303;
+
+    height: calc(100vh - 100px);
+    color: whitesmoke;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

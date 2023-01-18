@@ -1,0 +1,28 @@
+.container {
+    background-color: rgb(27, 25, 25);
+    height: 90vh;
+}
+
+::-webkit-scrollbar {
+    background-color: #550303;
+
+}
+
+::-webkit-scrollbar-button {
+    background-color: #550303;
+
+    border: 5px solid rgb(36, 33, 33);
+
+}
+
+
+::-webkit-scrollbar-track-piece {
+    background-color: rgb(35, 35, 39);
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #550303;
+    border: 5px solid rgb(35, 35, 39);
+
+}

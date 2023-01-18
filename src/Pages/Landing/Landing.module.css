@@ -1,0 +1,61 @@
+.container {
+    background-image: url('../../assets/BackgroundMoviesLandinng.jpg');
+    min-height: 100vh;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container nav {
+    height: 10%;
+    background-color: #5fa7e682;
+}
+
+.container ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container {
+    color: rgb(250, 246, 246);
+    font-size: 2em;
+}
+
+.container svg {
+    color: red;
+    font-size: 2em;
+}
+
+.containerButton {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerButton button {
+    height: 3em;
+    width: 10em;
+    border-radius: 5px;
+    border: none;
+    background-color: #5fa7e682;
+    font-weight: bold;
+    font-size: 0.7em;
+    color: white;
+}
+
+.containerButton button:hover {
+
+    background-color: #76a4ccb2;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 1s;
+
+}

@@ -1,0 +1,80 @@
+.container {
+    position: relative;
+    height: max-content;
+    width: 90%;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.container p {
+    font-size: 1.5em;
+    margin: 10px;
+    width: 100%;
+    background-color: #5fa7e682;
+
+    height: 20%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.container img {
+    height: 100%;
+}
+
+.containerImg {
+    position: relative;
+    background-color: aqua;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.play {
+    position: absolute;
+    font-size: 5em;
+
+    z-index: 10;
+    color: rgb(43, 38, 38);
+}
+
+.save {
+    position: absolute;
+    right: 2%;
+    top: 1%;
+    color: antiquewhite;
+    font-size: 3em;
+}
+
+.viewMore {
+    background-color: #5fa7e682;
+
+    border: none;
+    color: whitesmoke;
+    height: 3em;
+
+    font-weight: bolder;
+    font-size: large;
+    width: 100%;
+}
+
+.viewMore:hover {
+    background-color: rgba(230, 9, 9, 0.671);
+    cursor: pointer;
+    transition: all 1s;
+
+}
+
+.container svg {
+    cursor: pointer;
+}
+
+.container svg:hover {
+    color: rgba(230, 9, 9, 0.671);
+    transition: all 1s;
+}

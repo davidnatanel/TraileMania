@@ -1,0 +1,16 @@
+.container {
+    height: contain;
+    width: 100%;
+    overflow: hidden;
+
+    background-color: #550303;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    row-gap: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
