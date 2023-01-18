@@ -1,7 +1,7 @@
 .container {
     background-image: url('../../assets/BackgroundMoviesLandinng.jpg');
-    min-height: 100vh;
-    height: 90vh;
+    min-height: 97vh;
+
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -33,11 +33,12 @@
 }
 
 .containerButton {
-    height: 90%;
+    height: 80vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .containerButton button {

@@ -47,9 +47,9 @@
 
 .buttonContainer button {
     border: none;
-    color: blue;
+    color: rgb(239, 239, 245);
+    font-weight: bolder;
     height: 70%;
-
     width: 25px;
     border-radius: 10px;
 }

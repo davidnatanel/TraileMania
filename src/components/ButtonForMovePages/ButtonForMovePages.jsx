@@ -112,7 +112,7 @@ const ButtonForMovePages = ({ setNumberSelect, fetchMovies }) => {
                 <ul>
                     {number.slice(last, next).map((e, i) => {
                         return (
-                            <li key={i} > <button style={{ backgroundColor: selectnumber == e ? '#790606 ' : '', color: selectnumber == e ? 'white' : '' }} onClick={() => { changeNumber(e) }} >{e}</button></li>
+                            <li key={i} > <button style={{ backgroundColor: selectnumber == e ? '#790606 ' : 'gray', color: selectnumber == e ? 'white' : 'white' }} onClick={() => { changeNumber(e) }} >{e}</button></li>
                         )
                     })}
                 </ul>

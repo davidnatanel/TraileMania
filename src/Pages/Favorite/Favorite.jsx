@@ -9,7 +9,7 @@ import { chargeFavorite } from '../../redux/UserSlice';
 import style from './Favorite.module.css';
 
 const opts = {
-    height: '600',
+    height: '400',
     width: '100%',
 }
 

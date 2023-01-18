@@ -12,7 +12,7 @@ import style from './Home.module.css'
 
 
 const opts = {
-    height: '600',
+    height: '400',
     width: '100%',
 }
 
