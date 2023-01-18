@@ -37,14 +37,17 @@ export const userSlice = createSlice({
   reducers: {
 
     chargeFavorite: (state, action) => {
+
       if (localStorage.getItem("favorite") == null) {
 
+        let nuevo = []
+        localStorage.setItem('favorite', JSON.stringify(nuevo))
 
-        localStorage.setItem('favorite', [])
-
-        state.favorite = JSON.parse(localStorage.getItem("favorite"))
+        state.favorite = []
 
       }
+
+
 
 
       state.favorite = JSON.parse(localStorage.getItem("favorite"))
